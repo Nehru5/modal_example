@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Signup = (props) => {
 
   let overlay = {
@@ -23,15 +22,18 @@ const Signup = (props) => {
     width:"300px",
     boxShadow:"0 0 10px"
   }
+
+
+
   return (
     <>
-      <div style={overlay}>
-        <div style={modal}>
+      <div className='overlay' style={overlay}>
+        <div className='modal' style={modal}>
           <h1>Signup page</h1>
-          <input type="text" placeholder='Enter username' /> <br />
-          <input type="text" placeholder='Enter Email' /><br />
-          <input type="text" placeholder='Enter Phone no' /> <br />
-          <input type="text" placeholder='Enter Password' /> <br />
+          <input className='in' type="text" placeholder='Enter username' /> <br />
+          <input className='in' type="text" placeholder='Enter Email' /><br />
+          <input className='in' type="text" placeholder='Enter Phone no' /> <br />
+          <input className='in' type="text" placeholder='Enter Password' /> <br />
           <button>Signup</button>
           <button onClick={()=>{props.setShow(false)}}>Close</button>
         </div>

@@ -1,0 +1,23 @@
+   
+input{
+  padding: 8px;
+  border-radius:10px;
+    border:none;
+    margin:5px;
+    width:40%;
+    transition: width 0.9s ease-in-out;   
+}
+input:hover{
+  width: 70%;
+  border-bottom: 3px solid yellow;
+  
+}
+  button{
+    background-color: yellow;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    width: 30%;
+    border-radius: 10px;
+  }
